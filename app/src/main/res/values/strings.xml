@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+
+    <string name="init_value" translatable="false">0</string>
+
+    <string name="Button_AC" translatable="false">AC</string>
+    <string name="Button_Complement" translatable="false">+/-</string>
+    <string name="Button_Percent" translatable="false">%</string>
+    <string name="Button_Divide" translatable="false">÷</string>
+    <string name="Button_Multiplication" translatable="false">×</string>
+    <string name="Button_Plus" translatable="false">＋</string>
+    <string name="Button_Minus" translatable="false">－</string>
+    <string name="Button_Equal" translatable="false">＝</string>
+    <string name="Button_Dot" translatable="false">.</string>
+
+    <string name="Button_0" translatable="false">0</string>
+    <string name="Button_1" translatable="false">1</string>
+    <string name="Button_2" translatable="false">2</string>
+    <string name="Button_3" translatable="false">3</string>
+    <string name="Button_4" translatable="false">4</string>
+    <string name="Button_5" translatable="false">5</string>
+    <string name="Button_6" translatable="false">6</string>
+    <string name="Button_7" translatable="false">7</string>
+    <string name="Button_8" translatable="false">8</string>
+    <string name="Button_9" translatable="false">9</string>
+
+    <style name="Button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#2B2B2B</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+
+    <style name="Linear_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>
